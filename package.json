@@ -1,0 +1,22 @@
+{
+  "name": "stats_calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "coverage": "jest --coverage",
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+  },
+  "author": "Jhanelle Gray",
+  "email": "jag94@njit.edu",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.1"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.9",
+    "jest": "^25.1.0"
+  }
+}
