@@ -13,10 +13,16 @@
   "email": "jag94@njit.edu",
   "license": "ISC",
   "dependencies": {
-    "async": "^3.1.1"
+    "async": "^3.1.1",
+    "stats-lib": "^1.1.2",
+    "wilson-score-rank": "^2.0.1",
+    "ztable": "^1.0.7"
   },
   "devDependencies": {
     "coveralls": "^3.0.9",
-    "jest": "^25.1.0"
+    "expect": "^26.0.1",
+    "jest": "^25.5.4",
+    "jstat": "^1.9.2",
+    "seedrandom": "^3.0.5"
   }
 }
