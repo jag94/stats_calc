@@ -23,7 +23,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62076317-a3ad-495f-87d4-8096ccf92ea0" name="Default Changelist" comment="Travis">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/clover.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/coverage-final.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/DescStats.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/MathOperations.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/PopulationSampling.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/Seeds.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/block-navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/calculate.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/divide.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/multiply.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/root.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/sort-arrow-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/square.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/subtract.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/sum.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,46 +95,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.find the skewness of a data set">
-    <configuration name="Calculate divide 4 by  2 to equal 2" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/tests/calculate.test.js" />
-      <test-names>
-        <test-name value="Calculate divide 4 by  2 to equal 2" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="adds 2 + 2 to equal 4" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/tests/sum.test.js" />
-      <test-names>
-        <test-name value="adds 2 + 2 to equal 4" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="divides 2 by 2 to equal 1" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/tests/divide.test.js" />
-      <test-names>
-        <test-name value="divides 2 by 2 to equal 1" />
-      </test-names>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="npm.coveralls">
     <configuration name="find the skewness of a data set" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -127,26 +109,53 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="multiplies 2 by 2 to equal 4" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="coverage" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="coverage" />
+      </scripts>
       <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/tests/multiply.test.js" />
-      <test-names>
-        <test-name value="multiplies 2 by 2 to equal 4" />
-      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="coveralls" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="coveralls" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.coveralls" />
+        <item itemvalue="npm.coverage" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.test" />
         <item itemvalue="Jest.find the skewness of a data set" />
-        <item itemvalue="Jest.multiplies 2 by 2 to equal 4" />
-        <item itemvalue="Jest.divides 2 by 2 to equal 1" />
-        <item itemvalue="Jest.Calculate divide 4 by  2 to equal 2" />
-        <item itemvalue="Jest.adds 2 + 2 to equal 4" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +177,7 @@
       <workItem from="1588534883327" duration="599000" />
       <workItem from="1588607682754" duration="599000" />
       <workItem from="1588627137579" duration="598000" />
-      <workItem from="1589574541726" duration="22008000" />
+      <workItem from="1589574541726" duration="22802000" />
     </task>
     <task id="LOCAL-00001" summary="Reupload">
       <created>1589587688945</created>
@@ -226,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589595556730</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Travis">
+      <created>1589597471737</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589597471737</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,22 +278,22 @@
       <screen x="0" y="27" width="1366" height="676" />
     </state>
     <state x="538" y="264" key="Github.ShareDialog/0.27.1366.676@0.27.1366.676" timestamp="1589587473357" />
-    <state width="1320" height="154" key="GridCell.Tab.0.bottom" timestamp="1589595508424">
+    <state width="1320" height="154" key="GridCell.Tab.0.bottom" timestamp="1589598267789">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state width="1320" height="154" key="GridCell.Tab.0.bottom/0.27.1366.676@0.27.1366.676" timestamp="1589595508424" />
-    <state width="1320" height="154" key="GridCell.Tab.0.center" timestamp="1589595508420">
+    <state width="1320" height="154" key="GridCell.Tab.0.bottom/0.27.1366.676@0.27.1366.676" timestamp="1589598267789" />
+    <state width="1320" height="154" key="GridCell.Tab.0.center" timestamp="1589598267788">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state width="1320" height="154" key="GridCell.Tab.0.center/0.27.1366.676@0.27.1366.676" timestamp="1589595508420" />
-    <state width="1320" height="154" key="GridCell.Tab.0.left" timestamp="1589595508418">
+    <state width="1320" height="154" key="GridCell.Tab.0.center/0.27.1366.676@0.27.1366.676" timestamp="1589598267788" />
+    <state width="1320" height="154" key="GridCell.Tab.0.left" timestamp="1589598267787">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state width="1320" height="154" key="GridCell.Tab.0.left/0.27.1366.676@0.27.1366.676" timestamp="1589595508418" />
-    <state width="1320" height="154" key="GridCell.Tab.0.right" timestamp="1589595508422">
+    <state width="1320" height="154" key="GridCell.Tab.0.left/0.27.1366.676@0.27.1366.676" timestamp="1589598267787" />
+    <state width="1320" height="154" key="GridCell.Tab.0.right" timestamp="1589598267788">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state width="1320" height="154" key="GridCell.Tab.0.right/0.27.1366.676@0.27.1366.676" timestamp="1589595508422" />
+    <state width="1320" height="154" key="GridCell.Tab.0.right/0.27.1366.676@0.27.1366.676" timestamp="1589598267788" />
     <state width="1320" height="193" key="GridCell.Tab.1.bottom" timestamp="1589583845123">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
@@ -330,10 +346,10 @@
       <screen x="0" y="27" width="1366" height="676" />
     </state>
     <state x="172" y="27" width="1012" height="676" key="SettingsEditor/0.27.1366.676@0.27.1366.676" timestamp="1589597011569" />
-    <state x="278" y="100" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589595560321">
+    <state x="278" y="100" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589597491230">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state x="278" y="100" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.676@0.27.1366.676" timestamp="1589595560321" />
+    <state x="278" y="100" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.676@0.27.1366.676" timestamp="1589597491230" />
     <state x="458" y="81" width="440" height="566" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1589594041488">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
