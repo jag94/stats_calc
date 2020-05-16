@@ -23,28 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62076317-a3ad-495f-87d4-8096ccf92ea0" name="Default Changelist" comment="Travis">
-      <change afterPath="$PROJECT_DIR$/coverage/clover.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/coverage-final.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/DescStats.js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/MathOperations.js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/PopulationSampling.js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/Seeds.js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/block-navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/calculate.js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/divide.js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/multiply.js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/root.js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/sort-arrow-sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/square.js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/subtract.js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/sum.js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +157,7 @@
       <workItem from="1588534883327" duration="599000" />
       <workItem from="1588607682754" duration="599000" />
       <workItem from="1588627137579" duration="598000" />
-      <workItem from="1589574541726" duration="22802000" />
+      <workItem from="1589574541726" duration="23193000" />
     </task>
     <task id="LOCAL-00001" summary="Reupload">
       <created>1589587688945</created>
@@ -242,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589597471737</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Travis">
+      <created>1589598494655</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589598494655</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,10 +333,10 @@
       <screen x="0" y="27" width="1366" height="676" />
     </state>
     <state x="172" y="27" width="1012" height="676" key="SettingsEditor/0.27.1366.676@0.27.1366.676" timestamp="1589597011569" />
-    <state x="278" y="100" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589597491230">
+    <state x="278" y="100" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1589598502877">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
-    <state x="278" y="100" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.676@0.27.1366.676" timestamp="1589597491230" />
+    <state x="278" y="100" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1366.676@0.27.1366.676" timestamp="1589598502877" />
     <state x="458" y="81" width="440" height="566" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1589594041488">
       <screen x="0" y="27" width="1366" height="676" />
     </state>
