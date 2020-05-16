@@ -26,7 +26,7 @@ class Statistics extends Calculator {
         return impstats.quartile(values);
     }
     Skewness(values) {
-        return impstats.kthMoment(values, 3);
+        return parseFloat(impstats.kthMoment(values, 3).toFixed(17));
     }
     Covariance(vals1, vals2) {
         return impstats.cov(vals1, vals2);

@@ -42,7 +42,7 @@ test('calculate the quartiles of a data set', () => {
 test('find the skewness of a data set', () => {
     let array = seed.getSeedIntList('989', 12, 1, 12); // [6, 7, 2, 6, 2, 2, 8, 5, 6, 4, 3, 5]
     let skew = stats.Skewness(array);
-    expect(skew).toBe(-0.053123981725792954);
+    expect(skew).toBe(-0.05312398172579295);
 });
 test('calculate the sample correlation of a data set', () => {
     let arr1 = seed.getSeedIntList('1', 11, 0, 11); // [10, 3, 3, 5, 9, 1, 5, 9, 4, 6, 4]
