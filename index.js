@@ -13,12 +13,11 @@ let arr1 = seeded.getSeedIntList('989', 12, 1, 12);
 let arr2 = seeded.getSeedIntList('3', 1, 100);
 let int3 = seeded.getSeedInt('3', 1, 100);
 
-let rand = seeded.getSeedInt('11', 15, 25); // 46
-let size = seeded.getSeedInt('12', 1, 20); // 16
-let con = sampler.CInt_Known(rand, 18.12, size, 1.96);
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let gen = seeded.selectSeedItems('7', 4, arr);
 
-console.log(size);
-console.log(con);
-console.log(rand);
+//console.log(size);
+//console.log(rand2);
+console.log(gen);
 //console.log(stats.Abs_Dev(arr1)); // [3, 2, 2, 5, 5]);
 //console.log("The score is: " + zscore);
