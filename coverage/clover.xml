@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1589598280595" clover="3.2.0">
-  <project timestamp="1589598280596" name="All files">
+<coverage generated="1589599481276" clover="3.2.0">
+  <project timestamp="1589599481277" name="All files">
     <metrics statements="176" coveredstatements="137" conditionals="28" coveredconditionals="9" methods="53" coveredmethods="48" elements="257" coveredelements="194" complexity="0" loc="176" ncloc="176" packages="1" files="11" classes="11"/>
     <file name="DescStats.js" path="/home/inarib/WebstormProjects/stats_calc/DescStats.js">
       <metrics statements="23" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="11"/>
