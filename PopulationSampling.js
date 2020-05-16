@@ -133,25 +133,6 @@ class Sampling extends Lstats {
         arr[1] = this.Add(val, this.Margin_Error(z_val, stDev, size));
         return arr;
     }
-
-
-    Confidence_Size(con_int) {
-        let hold = con_int / 2.0;
-
-    }
-
-    Confidence_Size_Known(con_int, stan_dev) {
-
-    }
-
-
-    /*
-    Confidence Interval For a Sample
-    How to Find a Confidence Interval
-    Cochran’s Sample Size Formula
-    How to Find a Sample Size Given a Confidence Interval and Width (unknown population standard deviation)
-    How to Find a Sample Size Given a Confidence Interval and Width (known population standard deviation)
-     */
 }
 
 module.exports = Sampling;
