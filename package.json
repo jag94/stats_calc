@@ -13,7 +13,7 @@
   "email": "jag94@njit.edu",
   "license": "ISC",
   "dependencies": {
-    "async": "^3.1.1",
+    "async": "^3.2.2",
     "stats-lib": "^1.1.2",
     "wilson-score-rank": "^2.0.1",
     "ztable": "^1.0.7"
